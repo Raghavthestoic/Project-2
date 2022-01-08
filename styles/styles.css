@@ -1,0 +1,98 @@
+body {
+  font-size: 14px;
+  /* font-weight: 200; */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: hsl(228, 19%, 31%);
+  background-color: #f8f9ff;
+}
+
+.first-box {
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top: solid 5px hsl(187, 68%, 59%);
+  padding-left: 15px;
+}
+
+.supervisor-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.teambuilder {
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 15px;
+  border-top: solid 5px hsl(0, 98%, 49%);
+}
+
+.teambuilder-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.karma {
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 15px;
+  border-top: solid 5px hsl(39, 87%, 58%);
+}
+
+.karma-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.third-box {
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 15px;
+  border-top: solid 5px hsl(236, 78%, 67%);
+}
+
+.calculator-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.parent-container {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
